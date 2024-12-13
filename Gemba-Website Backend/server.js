@@ -3,8 +3,10 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const contactRoutes = require("./routes/contactRoutes");
+const careerRoutes = require("./routes/careerRoutes");
 
 const app = express();
+
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -14,6 +16,9 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Use contact routes
 app.use(contactRoutes);
+
+// Use career routes
+app.use(careerRoutes);
 
 // Start the server
 const PORT = process.env.PORT || 5000;

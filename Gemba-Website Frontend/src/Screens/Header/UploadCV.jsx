@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const UploadCV = () => {
+const UploadCV = ({ onFileSelect }) => {
   const [selectedFile, setSelectedFile] = useState(null);
 
   const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-    alert(`Selected file: ${event.target.files[0].name}`);
+    const file = event.target.files[0];
+    setSelectedFile(file);
+    if (onFileSelect) onFileSelect(file); // Pass the file to the parent component
   };
 
   return (
@@ -13,6 +14,7 @@ const UploadCV = () => {
       {/* Hidden file input */}
       <input
         type="file"
+        name="fileName"
         accept=".pdf,.doc,.docx"
         onChange={handleFileChange}
         id="cvUpload"
@@ -24,12 +26,12 @@ const UploadCV = () => {
         className="mt-2 cursor-pointer hover:underline text-gray-600"
       >
         <span role="img" aria-label="Upload CV">📂</span>
-        Upload your CV 
+        Upload your CV
       </label>
       {/* Display selected file name */}
       {selectedFile && (
         <p className="mt-2 text-gray-600">
-          Selected file: <span className=" ">{selectedFile.name}</span>
+          Selected file: <span>{selectedFile.name}</span>
         </p>
       )}
     </div>

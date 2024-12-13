@@ -43,6 +43,8 @@ const ContactForm = () => {
       const result = await response.json();
       if (response.ok) {
         alert(result.message);
+        // window.location.reload(); // Refresh the page after successful submission
+        window.location.href = "http://localhost:3000/contact";
       } else {
         alert(`Error: ${result.message}`);
       }
