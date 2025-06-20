@@ -1,5 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { FaBriefcase, FaPhoneAlt, FaEnvelope, FaLinkedin, FaBars, FaTimes } from "react-icons/fa"; // Import icons for the menu toggle
+import {
+  FaBriefcase,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaLinkedin,
+  FaBars,
+  FaTimes,
+} from "react-icons/fa"; // Import icons for the menu toggle
 import logo from "../../assets/GEMBA_LOGO.png";
 import { NavLink } from "react-router-dom";
 
@@ -106,70 +113,88 @@ const Navbar = () => {
             <div className={`hidden md:flex space-x-6`}>
               <div className="text-lg font-semibold flex space-x-1 items-center ">
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 flex items-center"
                   to="/"
-                  activeClassName="bg-white"
+                  className={({ isActive }) =>
+                    `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-1 flex items-center ${
+                      isActive ? "bg-white" : ""
+                    }`
+                  }
                 >
                   Home
                 </NavLink>
+
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
-                  to="/about"
-                  activeClassName="bg-white"
+                   to="/about"
+                  className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   About us
                 </NavLink>
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
                   to="/services"
-                  activeClassName="bg-white"
+                   className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   Services
                 </NavLink>
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
                   to="/product"
-                  activeClassName="bg-white"
+                  className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   Products
                 </NavLink>
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
                   to="/event"
-                  activeClassName="bg-white"
+                  className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   Events
                 </NavLink>
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
                   to="/partner"
-                  activeClassName="bg-white"
+                  className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   Partners
                 </NavLink>
-                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
+                <NavLink
                   to="/product-partner"
-                  activeClassName="bg-white"
+                  className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   Product Partner
                 </NavLink>
                 <NavLink
-                  className="p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center"
                   to="/contact"
-                  activeClassName="bg-white"
+                  className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                  ${ isActive ? "bg-white" : ""
+                  }`
+                  }
                 >
                   Contact us
                 </NavLink>
               </div>
-              <a
+              {/* <a
                 href="https://gembainfotech.com/hrm/admin/users/login"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-2 rounded-full hover:bg-[#e77b7f]"
               >
                 ESS/MSS
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -223,19 +248,26 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               className="block py-2 text-lg font-semibold"
+              to="/product-partner"
+              onClick={() => setMenuOpen(false)}
+            >
+              Product Partner
+            </NavLink>
+            <NavLink
+              className="block py-2 text-lg font-semibold"
               to="/contact"
               onClick={() => setMenuOpen(false)}
             >
               Contact us
             </NavLink>
-            <a
+            {/* <a
               href="https://gembainfotech.com/hrm/admin/users/login"
               target="_blank"
               rel="noopener noreferrer"
               className="block px-6 py-2 mt-4 bg-green-500 hover:[#EA5256] hover:text-white font-semibold text-md rounded-full mx-auto"
             >
               ESS/MSS
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>

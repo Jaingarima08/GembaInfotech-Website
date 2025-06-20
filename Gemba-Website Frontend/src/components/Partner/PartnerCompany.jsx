@@ -19,6 +19,8 @@ import img17 from '../../assets/Dlink.png';
 import img18 from '../../assets/Netsmartz.jpg';
 import img1 from '../../assets/frapeelogo.png';
 import img19 from '../../assets/logoCFCS.jpg';
+import img20 from '../../assets/Indofarm.jpg';
+import img21 from '../../assets/Heroecotech.png';
 
 const images = [
     { id: 1, src: img1, title: 'Image 1'},
@@ -41,6 +43,8 @@ const images = [
     { id: 17, src: img17, title: 'Image 17'},
     { id: 18, src: img18, title: 'Image 18'},
     { id: 19, src: img19, title: 'Image 19'},
+    { id: 20, src: img20, title: 'Image 20'},
+    { id: 21, src: img21, title: 'Image 21'},
   ];
 
 function PartnerCompany() {

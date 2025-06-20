@@ -8,7 +8,7 @@ import Connects from "../../components/Home/Connects"
 
 const Home = () => {
   return (
-    <div className="pt-24 lg:py-28 font-custom overflow-hidden" >
+    <div className="pt-24 lg:py-24 font-custom overflow-hidden" >
        <ImageSlider />
           <Aemp />
           <Solution />

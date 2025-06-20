@@ -50,7 +50,7 @@ const ContactForm = () => {
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("An error occurred while submitting the form.");
+      // alert("An error occurred while submitting the form.");
     }
   };
   

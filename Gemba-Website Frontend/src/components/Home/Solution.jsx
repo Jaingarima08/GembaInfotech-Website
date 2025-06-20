@@ -3,6 +3,7 @@ import { FaCode, FaChartBar, FaServer, FaSyncAlt, FaCogs } from 'react-icons/fa'
 import { RiAuctionFill } from "react-icons/ri";
 import { TbUserDollar } from "react-icons/tb";
 import { FaUsersGear } from "react-icons/fa6";
+import { RiBillLine } from "react-icons/ri";
 
 const solutions = [
   {
@@ -17,6 +18,20 @@ const solutions = [
     description: "Keeping SAP Solutions updated with changes and developments is key for sustained growth. Call us...",
     link: "/migration"
   },
+   {
+    icon: <FaChartBar size={40} className="text-[#EA5256]" />,
+    title: "SAP Analytics",
+    description: "Analytics solutions are a core part of SAP Business Technology, allowing users to provide real-time...",
+    link: "/SAP"
+  },
+  
+  {
+    icon: <FaCogs size={40} className="text-[#EA5256]" />,
+    title: "Application Management Services",
+    description: "Use SAP optimally by engaging us for development, integration, testing, support, and training...",
+    link: "/appmang"
+  },
+ 
   {
     icon: <FaSyncAlt size={40} className="text-[#EA5256]" />,
     title: "Implementation and Transformations",
@@ -24,21 +39,9 @@ const solutions = [
     link: "/implimentation"
   },
   {
-    icon: <FaCogs size={40} className="text-[#EA5256]" />,
-    title: "Application Management Services",
-    description: "Use SAP optimally by engaging us for development, integration, testing, support, and training...",
-    link: "/appmang"
-  },
-  {
-    icon: <FaChartBar size={40} className="text-[#EA5256]" />,
-    title: "SAP Analytics",
-    description: "Analytics solutions are a core part of SAP Business Technology, allowing users to provide real-time...",
-    link: "/SAP"
-  },
-  {
     icon: <RiAuctionFill size={40} className="text-[#EA5256]" />,
     title: "Reverse Auction Procurement Software",
-    description: "Procurement software designed to cater specifically to your needs...",
+    description: "Procurement software designed to cater specifically to your unique operational needs...",
     link: "/ReverseAuction"
   },
   {
@@ -52,6 +55,12 @@ const solutions = [
     title: "ERP",
     description: "Enhance your business efficiency with cutting-edge ERP technology for seamless operations and growth...",
     link: "/ERP"
+  },
+   {
+    icon: <RiBillLine size={40} className="text-[#EA5256]" />,
+    title: "Medical Billing",
+    description: "Improved claims accuracy for faster, seamless reimbursements and optimized revenue cycle performance...",
+    link: "/"
   }
 ];
 
@@ -74,7 +83,7 @@ const SolutionsGrid = () => {
       <p className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl my-4">Transforming Ideas into Digital Realities</p>
       
       <div className="bg-gray-100 py-10">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {solutions.map((service, index) => (
             <div key={index} className="transform translate-y-4">
               <SolutionCard {...service} />

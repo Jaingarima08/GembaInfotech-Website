@@ -5,32 +5,32 @@ import deal from "../../assets/deal.png";
 
 const ProductPartner = () => {
   return (
-    <div className="pt-32">
+    <div className="pt-24 md:pt-28">
       {/* Top Logos Section */}
    <div className="bg-gradient-to-r from-gray-100 to-blue-50 pt-10 w-full flex items-center justify-center">
-  <div className="flex items-center justify-center w-full max-w-screen-2xl mx-auto gap-10 bg-white py-6 px-10">
+  <div className="flex flex-row flex-wrap items-center justify-center w-full max-w-screen-3xl  gap-6 sm:gap-10 bg-white py-6 px-2 sm:px-4 md:px-10">
     {/* Gemba Infotech Logo */}
     <img
       src={Gembalogo}
       alt="Gemba Infotech Logo"
-      className="h-20 w-auto object-contain animate-slideInLeft"
+      className="h-10 sm:h-14 md:h-20 w-auto object-contain animate-slideInLeft"
     />
 
+    {/* Handshake Image */}
     <img
       src={deal}
-      alt="handshake"
-      className="h-20 w-auto object-contain animate-slideInLeft"
+      alt="Handshake"
+      className="h-10 sm:h-14 md:h-20 w-auto object-contain animate-slideInLeft"
     />
-
-
     {/* CFCS Logo */}
     <img
       src={CFCSlogo}
       alt="CFCS Logo"
-      className="h-20 w-auto object-contain animate-slideInRight"
+      className="h-10 sm:h-14 md:h-20 w-auto object-contain animate-slideInRight"
     />
   </div>
 </div>
+
 
 
       {/* Main Image + Text Section */}
@@ -51,7 +51,7 @@ const ProductPartner = () => {
     {/* Right Side: Text */}
     <div className="w-full lg:w-1/2">
       <p className="text-gray-600 text-justify leading-relaxed">
-        Innovate Ventures Group, Gemba Infotech and CFCS Cloud Solutions
+        Innovate Ventures Group, <strong>Gemba Infotech</strong> and <strong>CFCS Cloud Solutions </strong> 
         operate as dynamic sister companies, delivering a powerful synergy
         of IT services. Gemba Infotech specializes in cutting-edge digital
         transformation, providing bespoke software solutions, IT
