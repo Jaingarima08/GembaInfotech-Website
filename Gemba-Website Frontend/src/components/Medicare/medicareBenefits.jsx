@@ -118,20 +118,26 @@ const MedicareBenefits = () => {
       </div>
 
       {/* CTA Button */}
-      <div className="mt-12 text-center " data-aos="fade-up">
-        <NavLink
-          to="/contact"
-          className={({ isActive }) =>
-            `font-semibold px-6 py-3 rounded-full shadow-lg transition-transform hover:scale-105 ${
-              isActive
-                ? "bg-blue-600 text-white"
-                : "bg-blue-500 hover:bg-blue-600 text-white"
-            }`
-          }
-        >
-          📞 Contact Us for a Free Consultation
-        </NavLink>
-      </div>
+   <div className="mt-12 text-center" data-aos="fade-up">
+  <NavLink
+    to="/contact"
+    className={({ isActive }) =>
+      `font-semibold 
+       text-sm sm:text-base md:text-lg  
+       px-2 sm:px-6 md:px-8             
+       py-2 sm:py-3                   
+       rounded-full shadow-lg 
+       transition-transform hover:scale-105 ${
+         isActive
+           ? "bg-blue-600 text-white"
+           : "bg-blue-500 hover:bg-blue-600 text-white"
+       }`
+    }
+  >
+    📞 Contact Us for a Free Consultation
+  </NavLink>
+</div>
+
     </section>
   );
 };
