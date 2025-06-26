@@ -18,8 +18,8 @@ const Aemp = () => {
           <p className="font-bold text-gray-700 text-2xl sm:text-3xl lg:text-4xl">
             Driven by Innovation, Defined by Expertise
           </p>
-          <p className="mt-2 text-gray-600 ">
-            Gemba is where innovation thrives. Our team of industry-leading experts collaborates to create groundbreaking solutions for purpose-driven clients, accelerating their journey with cutting-edge technology. We combine deep expertise and a commitment to efficiency to drive smarter, faster, and leaner digital transformations.
+          <p className="mt-2 text-gray-600 text-justify tracking-tight md:tracking-normal ">
+            Our team of industry-leading experts collaborates to build groundbreaking solutions for purpose-driven clients. In the <strong>healthcare</strong> sector, we streamline medical billing processes to eliminate errors, ensure compliance, and maximize reimbursements. With deep <strong>technical expertise</strong> and a commitment to efficiency, we empower healthcare providers to focus on patient care while we handle the complexities of billing — smarter, faster, and leaner.
           </p>
         </div>
       </div>

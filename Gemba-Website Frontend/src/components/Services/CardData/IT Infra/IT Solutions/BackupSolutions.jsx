@@ -13,7 +13,7 @@ const BackupSolutions = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">BACKUP & ARCHIVING SOLUTIONS</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           For secure and reliable backup and archiving solutions to safeguard your valuable data, our services have you covered. We offer robust backup and recovery options, along with secure archiving solutions designed for long-term data retention and compliance, ensuring your information is always protected and easily accessible when needed.
         </p>
 
@@ -33,7 +33,7 @@ const BackupSolutions = () => {
                 openSection === "Data protection" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our Backup & Archiving Solutions are specifically designed to safeguard your critical data from loss due to hardware failures, human error, cyberattacks, or natural disasters. With our solutions, you can rely on secure, high-performance backups that ensure your data can be quickly and easily restored whenever needed, providing peace of mind and minimizing potential disruptions.
               </div>
             </div>
@@ -53,7 +53,7 @@ const BackupSolutions = () => {
                 openSection === "Long-term retention" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Archiving Solutions provide long-term retention of data for compliance, legal, or historical purposes. This ensures that your data is stored securely and remains accessible for as long as necessary.
               </div>
             </div>
@@ -73,7 +73,7 @@ const BackupSolutions = () => {
                 openSection === "Scalability" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our Backup & Archiving Solutions are fully scalable to adapt to the evolving needs of your business. Whether you're managing a growing volume of data or need to reduce storage requirements, our flexible solutions can be seamlessly scaled up or down. This enables you to optimize costs while maintaining the highest levels of data availability, security, and integrity.
               </div>
             </div>

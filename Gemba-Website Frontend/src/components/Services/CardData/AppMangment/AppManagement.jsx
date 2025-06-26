@@ -40,7 +40,7 @@ const AppManagement = () => {
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">
             Optimized Management, Guaranteed Results
           </p>
-          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal ">
             For over a decade, Gemba InfoTech has empowered businesses by
             simplifying IT processes and reducing costs. We work with
             organizations of all sizes, crafting tailored solutions that

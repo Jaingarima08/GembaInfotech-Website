@@ -22,7 +22,7 @@ const NetworkSolution = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">NETWORK SOLUTIONS</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           Our service delivers robust network solutions designed to protect your valuable data and assets, offering strong defense against cyber threats and ensuring comprehensive security.
         </p>
 
@@ -41,7 +41,7 @@ const NetworkSolution = () => {
                 openSection === "Network Infrastructure Design and Implementation" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Another key objective is to design and implement customized network infrastructure tailored to each business's unique requirements. This process includes analyzing network needs, recommending suitable hardware and software solutions, and deploying and configuring network equipment for optimal performance and security.
               </div>
             </div>
@@ -60,7 +60,7 @@ const NetworkSolution = () => {
                 openSection === "Network Monitoring and Management" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our team is dedicated to delivering proactive monitoring and management services to ensure our clients' networks operate at peak performance. This includes real-time tracking of network traffic and performance metrics, as well as swift issue resolution to minimize downtime and maintain seamless connectivity.
               </div>
             </div>
@@ -79,7 +79,7 @@ const NetworkSolution = () => {
                 openSection === "Scalability and Future-Proofing" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 We design and implement network solutions that are scalable and future-ready, ensuring they can support growth and adapt to technological advancements. By considering factors like network capacity, flexibility, and emerging technologies, we build infrastructures that are resilient and ready for long-term success.
               </div>
             </div>

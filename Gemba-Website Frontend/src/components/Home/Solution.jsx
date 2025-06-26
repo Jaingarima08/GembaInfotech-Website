@@ -60,7 +60,7 @@ const solutions = [
     icon: <RiBillLine size={40} className="text-[#EA5256]" />,
     title: "Medical Billing",
     description: "Improved claims accuracy for faster, seamless reimbursements and optimized revenue cycle performance...",
-    link: "/"
+    link: "/gemba-medicare"
   }
 ];
 
@@ -68,7 +68,7 @@ const SolutionCard = ({ icon, title, description, link }) => (
   <div className="bg-white p-6 mx-2 lg:mx-0 lg:mb-6 shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl rounded-tl-2xl rounded-br-2xl">
     <div className="mb-4">{icon}</div>
     <h3 className="text-xl font-semibold mb-4">{title}</h3>
-    <p className="text-gray-600 mb-6">{description}</p>
+    <p className="text-gray-600 mb-6 text-justify tracking-tight md:tracking-normal">{description}</p>
     <a href={link} className="text-blue-500 font-semibold flex items-center justify-center transition-colors duration-300 hover:text-blue-700">
       Know More<span className="ml-2">→</span>
     </a>

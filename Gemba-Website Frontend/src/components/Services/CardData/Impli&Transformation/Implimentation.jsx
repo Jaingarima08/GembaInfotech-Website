@@ -39,7 +39,7 @@ const Implimentation = () => {
           <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">
             Empowering Change with Expert Implementation
           </p>
-          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal ">
             ERPs are crucial for organizations, streamlining operations by
             eliminating redundancy, enhancing transparency, and providing a
             unified truth. Implementing an ERP system is complex and requires
@@ -55,7 +55,7 @@ const Implimentation = () => {
       </div>
 
       <div className="w-full max-w-[600px] px-4 md:px-6 lg:mx-auto mt-12 sm:text-start lg:text-center text-gray-600">
-        <div>
+        <div className="text-justify tracking-tight md:tracking-normal ">
           We specialize in driving digital transformation through SAP ERP
           solutions, including SAP S/4HANA. With numerous successful
           implementations, we have perfected the art and science of delivering
@@ -112,7 +112,7 @@ const Implimentation = () => {
             Faster Realization
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Our deep industry expertise and proven methodologies enable faster
               realization of your goals, ensuring a smoother and more efficient
               transformation process.
@@ -125,7 +125,7 @@ const Implimentation = () => {
             Consultative Approach
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We apply industry best practices, customized to your company's
               unique needs, and carefully evaluate options to guide you in
               making the right process decisions.
@@ -138,7 +138,7 @@ const Implimentation = () => {
             Optimized Costs
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We achieve cost efficiencies through effective knowledge
               management, reusable components, a blended onsite-offshore model,
               and customizable solutions.
@@ -153,7 +153,7 @@ const Implimentation = () => {
             Process Transformation
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We facilitate change management and the adoption of best
               practices, leveraging our deep expertise in the field.
             </p>
@@ -166,7 +166,7 @@ const Implimentation = () => {
             Project Management
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Our goal-driven project management, combined with clear
               milestones, KPIs, and robust monitoring and control mechanisms,
               ensures a risk-free transformation.
@@ -180,7 +180,7 @@ const Implimentation = () => {
             Minimal Disruption
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Our migration strategy and cutover techniques ensure minimal
               business disruption during deployment and transitions.
             </p>
@@ -201,7 +201,7 @@ const Implimentation = () => {
           <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
             Empowering Business with Gemba InfoTech
           </div>
-          <p className="w-full mt-4 sm:mt-5 text-base text-gray-600">
+          <p className="w-full mt-4 sm:mt-5 text-base text-gray-600 text-justify tracking-tight md:tracking-normal ">
             Empowering your business with Gemba InfoTech's cutting-edge
             solutions and industry expertise. We turn complex challenges into
             growth opportunities, driving your transformation with precision and
@@ -218,7 +218,7 @@ const Implimentation = () => {
             No Risk
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We deliver implementation services with a strong guarantee of
               success. Our expert approach ensures seamless execution, achieving
               your objectives and delivering exceptional results.
@@ -231,7 +231,7 @@ const Implimentation = () => {
             Satisfied Users
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Our transformation services enhance workflows and boost
               productivity, driving greater efficiency and enabling users to
               achieve more with less effort.
@@ -245,7 +245,7 @@ const Implimentation = () => {
             Controlled Budgets
           </div>
           <div className="mt-5 text-gray-600">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Our project management approach minimizes extensions and
               escalations by maintaining strict control, ensuring projects stay
               on schedule and within scope for timely, successful completion.

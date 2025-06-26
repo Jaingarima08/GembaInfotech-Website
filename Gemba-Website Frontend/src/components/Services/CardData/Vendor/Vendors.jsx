@@ -35,7 +35,7 @@ const Vendor = () => {
         {/* Text Div */}
         <div className="md:ml-4 max-w-full md:max-w-[63%] bg-slate-200 p-3 sm:p-4 lg:p-8 rounded-xl shadow-lg z-10 overflow-hidden w-full lg:w-1/2 h-full min-h-[15rem] sm:min-h-[16rem] md:min-h-[20rem] lg:min-h-[24rem] animate-slideInRight">
           <p className="text-2xl sm:text-3xl lg:text-4xl  font-bold text-gray-800">One Portal for Seamless Supplier Management</p>
-                    <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+                    <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal ">
                     Vendor Portals, also called Supplier Portals, are online platforms that enable businesses to collaborate with their external suppliers. These portals streamline communication, making it easier to manage orders, track shipments, and handle invoices. Suppliers can update product information, confirm purchase orders, and submit invoices directly through the portal. This improves transparency and reduces manual effort by centralizing all supplier interactions in one place. As a result, businesses can enhance their procurement processes and build stronger supplier relationships. Vendor Portals also ensure better control over supply chain operations.
                     </p>
                 </div>

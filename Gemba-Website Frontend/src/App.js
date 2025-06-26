@@ -36,6 +36,7 @@ const Product = React.lazy(() => import ("./components/Product/Product.jsx"));
 const Events = React.lazy(() => import ("./components/Showcase/Showcase.jsx"));
 const Partner = React.lazy(() => import ("./components/Partner/Partner.jsx"));
 const ProductPartner = React.lazy(() => import ("./components/Product Partner/ProductPartner.jsx"));
+const GembaMedicare = React.lazy(() => import ("./components/Medicare/Medicare.jsx"));
 const Contact = React.lazy(() => import ("./components/Contact/Contact.jsx"));
 const Career = React.lazy(() => import ("./Screens/Header/Career.jsx"));
 const FAQ = React.lazy(() => import ("./Screens/Footer/FAQ.jsx"));
@@ -73,6 +74,7 @@ function App() {
           <Route path="/contact" Component={Contact} />
           <Route path="/partner" Component={Partner}/>
           <Route path="/product-partner" Component={ProductPartner}/>
+          <Route path="/gemba-medicare" Component={GembaMedicare}/>
           <Route path="/faq" Component={FAQ}/>
           <Route path="/application-development" Component={AppDev}/>
           <Route path="/migration" Component={Migration}/>

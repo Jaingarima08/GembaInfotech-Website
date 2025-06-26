@@ -42,7 +42,7 @@ const App_Dev = () => {
           <p className="text-2xl sm:text-3xl lg:text-4xl  font-bold text-gray-800">
             Business Intelligence and Analytics Consulting
           </p>
-          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal">
             We have highly skilled ABAP Consultants and Solutions Architects to
             develop solutions needed by customers. We understand how SAP ERP can
             be enhanced using User Exists, BADIs, BAPIs, BDC, RFC, OData, etc.
@@ -58,7 +58,7 @@ const App_Dev = () => {
 
       {/* Other sections remain unchanged */}
       <div className="w-full max-w-[500px] px-6 lg:mx-auto mt-12 sm:text-start lg:text-center text-gray-600">
-        <div>
+        <div className="text-justify tracking-tight md:tracking-normal">
           We excel in extending ERPs to business partners through cutting-edge
           technologies such as SAP Cloud Platform, SAP Cloud Integration, and
           SAP HANA DB. Our deep expertise ensures seamless integration and
@@ -85,7 +85,7 @@ const App_Dev = () => {
             Outsourced RICEFW Development
           </div>
           <div className="mt-4 sm:mt-5 text-gray-600 text-base">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Complete development from implementation to go-live with dedicated
               end-to-end project management.
             </p>
@@ -97,8 +97,8 @@ const App_Dev = () => {
           <div className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[70px] text-center items-center justify-center">
             Extensions on SAP Cloud Platform
           </div>
-          <div className="mt-4 sm:mt-5 text-gray-600 text-base">
-            <p>
+          <div className="mt-4 sm:mt-5 text-gray-600 text-base ">
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Proven experience in Application Development on SAP Cloud Platform
               for extending ERP and customizing cloud solutions.
             </p>
@@ -111,7 +111,7 @@ const App_Dev = () => {
             Business Analytics
           </div>
           <div className="mt-4 sm:mt-5 text-gray-600 text-base">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We have deep experience in SAP Business Intelligence (BI/BO),
               Cloud Analytics, BW on HANA, Embedded Analytics etc.
             </p>
@@ -146,7 +146,7 @@ const App_Dev = () => {
             Mobility Applications
           </div>
           <div className="my-2 sm:mt-4 text-gray-600 text-base">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We have been working on using SAP Mobile Platforms, SAP Fiori to
               enhance user experience, provide user-friendly UIs and enable
               mobility in organizations.
@@ -160,7 +160,7 @@ const App_Dev = () => {
             Application Integrations
           </div>
           <div className="my-2 sm:mt-4 text-gray-600 text-base ">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We are experts in system integrations using SAP Cloud Integration
               Services, OData Services, WSDL, Soap UI etc.
             </p>
@@ -173,7 +173,7 @@ const App_Dev = () => {
             HANA Services
           </div>
           <div className="my-2 sm:mt-4 text-gray-600 text-base ">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               Expertise in SAP HANA DB optimization and developments. We can
               optimize your reporting and developments post-migrations using
               Calculation and Analytics Views etc.
@@ -198,7 +198,7 @@ const App_Dev = () => {
           <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
             Why Gemba InfoTech for Application Development?
           </div>
-          <p className="w-full mt-4 sm:mt-5 text-base text-gray-600">
+          <p className="w-full mt-4 sm:mt-5 text-base text-gray-600 text-justify tracking-tight md:tracking-normal ">
             We have developed CMM-Based Application Development Practices and
             have established ourselves by delivering numerous solutions to our
             esteemed clients.
@@ -213,7 +213,7 @@ const App_Dev = () => {
             Agile Approach
           </div>
           <div className="mt-4 sm:mt-5 text-gray-600 text-base">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We have been working on using SAP Mobile Platforms, SAP Fiori to
               enhance user experience, provide user-friendly UIs and enable
               mobility in organisations.
@@ -226,7 +226,7 @@ const App_Dev = () => {
             Project Management
           </div>
           <div className="mt-4 sm:mt-5 text-gray-600 text-base">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We have been working on using SAP Mobile Platforms, SAP Fiori to
               enhance user experience, provide user-friendly UIs and enable
               mobility in organisations.
@@ -240,7 +240,7 @@ const App_Dev = () => {
             Knowledge Management
           </div>
           <div className="mt-4 sm:mt-5 text-gray-600 text-base">
-            <p>
+            <p className="text-justify tracking-tight md:tracking-normal ">
               We are experts in system integrations using SAP Cloud Integration
               Services, OData Services, WSDL, Soap UI etc.
             </p>
@@ -254,7 +254,7 @@ const App_Dev = () => {
           <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
             Our expertise in app development 
           </div>
-          <p className="w-full my-4 sm:mt-5 text-base text-gray-600">
+          <p className="w-full my-4 sm:mt-5 text-base text-gray-600 text-justify tracking-tight md:tracking-normal ">
           Our journey started with a clear vision: to simplify parking and make it accessible to everyone.
 We developed our parking application to tackle the everyday hassle of finding a secure, convenient parking spot.
 <br />
@@ -290,7 +290,7 @@ Discover how we're transforming parking experiences by visiting our website belo
         <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
           How Does it Help You?
         </div>
-        <div className="mt-4 sm:mt-5 text-base text-gray-600">
+        <div className="mt-4 sm:mt-5 text-base text-gray-600 text-justify tracking-tight md:tracking-normal ">
           By outsourcing your application developments, we help by taking care
           of your development needs, allowing you to focus on managing
           operations and handling business.

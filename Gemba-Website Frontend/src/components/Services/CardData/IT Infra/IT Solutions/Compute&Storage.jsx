@@ -13,7 +13,7 @@ const ComputeAndStorage = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">COMPUTE & STORAGE</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           We provide comprehensive computing and server storage solutions designed to streamline data management and maximize performance.
         </p>
 
@@ -32,7 +32,7 @@ const ComputeAndStorage = () => {
                 openSection === "scalability" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our computing and server storage solutions are designed with scalability in mind, allowing your infrastructure to grow alongside your business. This ensures you always have the capacity to meet evolving demands with ease.
               </div>
             </div>
@@ -51,7 +51,7 @@ const ComputeAndStorage = () => {
                 openSection === "reliability" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our solutions are designed for maximum reliability, featuring redundant systems that ensure minimal downtime and safeguard against data loss.
               </div>
             </div>
@@ -70,7 +70,7 @@ const ComputeAndStorage = () => {
                 openSection === "security" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 We recognize the critical importance of data security and provide robust features to defend against unauthorized access, hacking, and evolving cyber threats.
               </div>
             </div>

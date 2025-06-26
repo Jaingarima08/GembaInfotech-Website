@@ -31,7 +31,7 @@ const vendorData = [
 const Card = ({ title, description }) => (
   <div className="w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg">
           <h2 className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[70px] text-center items-center justify-center">{title}</h2>
-    <p className="my-2 sm:my-4 text-gray-600 text-base">{description}</p>
+    <p className="my-2 sm:my-4 text-gray-600 text-base text-justify tracking-tight md:tracking-normal ">{description}</p>
   </div>
 );
 

@@ -22,7 +22,7 @@ const Surveillance = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">SURVEILLANCE</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           Our Surveillance Solutions are designed to enhance the security and monitoring of your premises. Featuring high-definition cameras, advanced video analytics, and remote monitoring capabilities, our solutions provide real-time visibility and actionable insights, ensuring comprehensive protection and optimized operational oversight.
         </p>
 
@@ -41,7 +41,7 @@ const Surveillance = () => {
                 openSection === "Enhanced security" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our Surveillance Solutions deliver robust security by continuously monitoring and recording activities, deterring criminal behavior, and enabling rapid response to security incidents. Equipped with high-quality cameras, sensors, and alarms, our solutions ensure comprehensive coverage and protection for your premises.
               </div>
             </div>
@@ -60,7 +60,7 @@ const Surveillance = () => {
                 openSection === "Real-time monitoring" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Surveillance solutions provide real-time monitoring, empowering you to remotely oversee your premises with ease. This enhanced flexibility and visibility allow for rapid response to security incidents, streamlined operations management, and data-driven decision-making. By staying connected and informed, you can ensure a proactive approach to security and operational efficiency.
               </div>
             </div>
@@ -79,7 +79,7 @@ const Surveillance = () => {
                 openSection === "Video analytics" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Surveillance solutions also feature advanced video analytics, including facial recognition, object tracking, and motion detection. These capabilities deliver valuable insights into your operations, helping you spot trends, identify anomalies, and enhance business processes for greater efficiency and security.
               </div>
             </div>

@@ -35,7 +35,7 @@ const About = () => {
               Your Challenges, Our Solutions
             </h1>
             <br />
-            <p className="text-gray-700 ">
+            <p className="text-gray-700 text-justify tracking-tight md:tracking-normal ">
               <strong>GembaInfotech®</strong> is a full IT Service Provider, offering
               organizations the technology, content, and expertise for featuring
               comprehensive IT and Business Services through AI and Machine
@@ -84,7 +84,7 @@ const About = () => {
             <br />
             <div className="flex flex-col lg:flex-row justify-between mt-4 ">
               {/* Text Content */}
-              <p className="w-full lg:w-64 text-gray-700 ">
+              <p className="w-full lg:w-64 text-gray-700 text-justify tracking-tight md:tracking-normal ">
                 In today's dynamic digital landscape, our top priority is
                 delivering exceptional service, precisely tailored to the unique
                 needs of our clients. We achieve this by seamlessly integrating
@@ -135,7 +135,7 @@ const About = () => {
                 className="text-slate-300 rounded-full w-12 h-12 translate-x-2 translate-y-10"
                 size={36}
               />
-              <p className="pr-0 md:pr-6 mt-10 text-gray-700">
+              <p className="pr-0 md:pr-6 mt-10 text-gray-700 text-justify tracking-tight md:tracking-normal ">
                 Gemba is a place for ideas. And a place consisting of the right
                 people who have come together to build incredible things for
                 purpose-driven clients—helping businesses move at the speed of

@@ -13,7 +13,7 @@ const AILab = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">SETTING UP ARTIFICIAL INTELLIGENCE LAB</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           We offer cutting-edge Machine Learning and Artificial Intelligence solutions designed to unlock the full potential of your data and automation processes. Our services include advanced predictive analytics, natural language processing, and computer vision, all tailored to enhance operational efficiency, drive innovation, and deliver measurable business value.
         </p>
 
@@ -32,7 +32,7 @@ const AILab = () => {
                 openSection === "Predictive analytics" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Deep Learning, Machine Learning, and Artificial Intelligence solutions can process vast amounts of data to uncover patterns and trends, empowering predictive analytics that support data-driven, informed decision-making for your business.
               </div>
             </div>
@@ -51,7 +51,7 @@ const AILab = () => {
                 openSection === "Automation" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 These solutions can automate repetitive tasks and streamline complex processes, minimizing human error and boosting operational efficiency. Additionally, they enhance customer experiences through advanced natural language processing and personalized recommendations, driving greater engagement and satisfaction.
               </div>
             </div>
@@ -70,7 +70,7 @@ const AILab = () => {
                 openSection === "Computer vision" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Deep Learning, Machine Learning, and Artificial Intelligence solutions can analyze images and video, providing insights and enabling automation in areas such as object detection, facial recognition, and autonomous vehicles. This can increase safety, productivity, and convenience in a variety of industries.
               </div>
             </div>

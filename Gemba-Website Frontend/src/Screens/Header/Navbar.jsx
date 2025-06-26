@@ -178,6 +178,15 @@ const Navbar = () => {
                   Product Partner
                 </NavLink>
                 <NavLink
+                to="/gemba-medicare"
+                className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
+                ${ isActive ? "bg-white" : ""
+                }`
+                }
+                >
+                  Medicare
+                </NavLink>
+                <NavLink
                   to="/contact"
                   className={({ isActive }) => `p-2 rounded transition duration-500 ease-in-out transform hover:-translate-y-2 flex items-center
                   ${ isActive ? "bg-white" : ""
@@ -187,14 +196,7 @@ const Navbar = () => {
                   Contact us
                 </NavLink>
               </div>
-              {/* <a
-                href="https://gembainfotech.com/hrm/admin/users/login"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="my-2 bg-[#EA5256] font-semibold text-md px-6 py-2 rounded-full hover:bg-[#e77b7f]"
-              >
-                ESS/MSS
-              </a> */}
+              
             </div>
           </div>
 
@@ -254,20 +256,19 @@ const Navbar = () => {
               Product Partner
             </NavLink>
             <NavLink
+            className="block py-2 text-lg font-semibold"
+            to="/gemba-medicare"
+            onClick={() => setMenuOpen(false)}
+            >
+            Medicare
+            </NavLink>
+            <NavLink
               className="block py-2 text-lg font-semibold"
               to="/contact"
               onClick={() => setMenuOpen(false)}
             >
               Contact us
             </NavLink>
-            {/* <a
-              href="https://gembainfotech.com/hrm/admin/users/login"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block px-6 py-2 mt-4 bg-green-500 hover:[#EA5256] hover:text-white font-semibold text-md rounded-full mx-auto"
-            >
-              ESS/MSS
-            </a> */}
           </div>
         </div>
       </nav>

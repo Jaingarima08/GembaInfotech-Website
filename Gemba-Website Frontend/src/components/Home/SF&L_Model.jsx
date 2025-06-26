@@ -17,7 +17,7 @@ const Model = () => {
   {/* Smarter Section */}
   <div className="flex-1 p-4 md:w-full lg:w-1/3 md:lg:mb-96 md:lg:left-12 md:lg:absolute text-start">
     <h1 className="text-xl lg:text-2xl font-bold text-blue-500 ">Smarter</h1>
-    <p className="text-gray-600">The company aims to empower everyone across the value chain to
+    <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">The company aims to empower everyone across the value chain to
               make better decisions—from delivery truck drivers and forklift
               operators to foremen, sales executives, and the CEO—not just
               improving decision-making for managers and executives, but for
@@ -32,7 +32,7 @@ const Model = () => {
   {/* Faster Section */}
   <div className="flex-1 p-4 md:w-full lg:w-1/3 md:lg:mt-80 md:lg:left-12 md:lg:absolute text-start">
     <h1 className="text-xl lg:text-2xl font-bold text-green-500 ">Faster</h1>
-    <p className="text-gray-600"> It reflects the organization's agility, speed, and responsiveness.
+    <p className="text-gray-600 text-justify tracking-tight md:tracking-normal "> It reflects the organization's agility, speed, and responsiveness.
               By quickly addressing the needs of all stakeholders, the company
               gains a competitive edge and enhances its ability to adapt to
               changing business conditions.</p>
@@ -41,7 +41,7 @@ const Model = () => {
   {/* The Learner Section */}
   <div className="flex-1 p-4 md:w-full lg:w-1/3 md:lg:mt-80 md:lg:absolute md:lg:right-12 text-start">
     <h1 className="text-xl lg:text-2xl font-bold text-[#EA5256] ">The Learner</h1>
-    <p className="text-gray-600"> To succeed, companies must first focus on becoming smarter.
+    <p className="text-gray-600 text-justify tracking-tight md:tracking-normal "> To succeed, companies must first focus on becoming smarter.
               Enhanced decision-making reduces delays, increases agility, and
               boosts service levels across the organization—paving the way for
               greater speed. This agility also uncovers inefficiencies and

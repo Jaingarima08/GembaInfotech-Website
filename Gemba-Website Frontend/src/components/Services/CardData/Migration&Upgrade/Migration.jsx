@@ -84,19 +84,19 @@ const Migration = () => {
 
       <div className='w-full max-w-[800px] mx-4 sm:mx-6 lg:mx-auto mt-12 sm:text-start lg:text-center'>
       <div className='text-2xl sm:text-3xl lg:text-4xl  font-bold text-gray-800'>SAP Cloud Migration</div>
-                <div className="text-gray-600 my-2">Cloud technologies are rapidly adopted due to their CAPEX savings and flexible, on-demand infrastructure. SAP's cloud offerings provide significant business value, driving rapid customer adoption. In 2015, SAP's cloud sales doubled to €2.3 billion, with expectations of a 2.6x increase by 2020 compared to 2016 sales.</div>
+                <div className="text-gray-600 my-2 text-justify tracking-tight md:tracking-normal ">Cloud technologies are rapidly adopted due to their CAPEX savings and flexible, on-demand infrastructure. SAP's cloud offerings provide significant business value, driving rapid customer adoption. In 2015, SAP's cloud sales doubled to €2.3 billion, with expectations of a 2.6x increase by 2020 compared to 2016 sales.</div>
             </div>
 
             <div className='w-full max-w-[800px] mx-4 sm:mx-6 lg:mx-auto my-8 sm:text-start lg:text-center'>
                 <div className='text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800'>Type of Upgrades</div>
-                <div className='text-gray-600 my-2'>Migrations and upgrades can be broadly categorized as follows. With extensive experience in managing various types of migrations, we are well-equipped and ready to assist you with any of these challenges.</div>
+                <div className='text-gray-600 my-2 text-justify tracking-tight md:tracking-normal '>Migrations and upgrades can be broadly categorized as follows. With extensive experience in managing various types of migrations, we are well-equipped and ready to assist you with any of these challenges.</div>
             </div>
 
             <div className='flex flex-wrap items-center justify-between gap-4 mx-4 sm:mx-6 lg:mx-8 mt-5 mb-10'>
                 
                 <div className='w-full sm:w-[400px] lg:w-[400px] h-[200px] bg-slate-200 p-4 sm:p-5 rounded-lg shadow-lg'>
                     <div className='text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom px-2 py-4 h-[60px] text-center items-center justify-center'>OS/DB Migrations </div>
-                    <div className='mt-4 sm:mt-5 text-gray-600 text-base'>
+                    <div className='mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal '>
                         <p>These migrations involve moving from Windows to Unix/Linux or switching databases from Oracle, DB2, Sybase, etc., to HANA DB.</p>
                     </div>
                 </div>
@@ -104,7 +104,7 @@ const Migration = () => {
                 
                 <div className='w-full sm:w-[400px] lg:w-[400px] h-[200px] bg-slate-200 p-4 sm:p-5 rounded-lg shadow-lg'>
                     <div className='text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom px-2 py-4 h-[60px] text-center items-center justify-center'>Process Improvements </div>
-                    <div className='mt-4 sm:mt-5 text-gray-600 text-base'>
+                    <div className='mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal '>
                         <p>While the technical platform stays the same, the client seeks to enhance processes, activate new features, and modify workflows.</p>
                     </div>
                 </div>
@@ -112,7 +112,7 @@ const Migration = () => {
                 
                 <div className='w-full sm:w-[400px] lg:w-[400px] h-[200px] bg-slate-200 p-4 sm:p-5 rounded-lg shadow-lg'>
                     <div className='text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom px-2 py-4 h-[60px] text-center items-center justify-center'>Platform Migration </div>
-                    <div className='mt-4 sm:mt-5 text-gray-600 text-base'>
+                    <div className='mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal '>
                         <p>Platform migrations may involve hardware upgrades, hardware changes, on-premise to cloud transitions, or DR site setups.</p>
                     </div>
                 </div>
@@ -126,7 +126,7 @@ const Migration = () => {
                 {/* Text-content */}
                 <div className='w-full md:w-[45%] mt-5 md:mt-0 lg:px-4'>
                     <div className='text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800'>Why Gemba InfoTech for Upgrades and Migrations</div>
-                    <p className='w-full mt-4 sm:mt-5 text-base text-gray-600'>We have been working on improving our processes and methodologies to make upgrades non-disruptive and result oriented. We have helps many customers in keeping them updated.</p>
+                    <p className='w-full mt-4 sm:mt-5 text-base text-gray-600 text-justify tracking-tight md:tracking-normal '>We have been working on improving our processes and methodologies to make upgrades non-disruptive and result oriented. We have helps many customers in keeping them updated.</p>
                 </div>
             </div>
 
@@ -134,14 +134,14 @@ const Migration = () => {
                
                 <div className='w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg shadow-lg'>
                     <div className='text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom px-2 py-4 h-[60px] text-center items-center justify-center'>Non-Disruptive Change </div>
-                    <div className='mt-4 sm:mt-5 text-gray-600 text-base'>
+                    <div className='mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal '>
                         <p>Our proven methods for upgrades and migrations minimize business disruption and require minimal downtime.</p>
                     </div>
                 </div>
                
                 <div className='w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg shadow-lg'>
                     <div className='text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom px-2 py-4 h-[60px] text-center items-center justify-center'>Comprehensive Updates </div>
-                    <div className='mt-4 sm:mt-5 text-gray-600 text-base'>
+                    <div className='mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal '>
                         <p>We not only transition you to the new platform but also maximize its potential by activating all relevant features and leveraging the latest advancements.</p>
                     </div>
                 </div>
@@ -149,7 +149,7 @@ const Migration = () => {
                
                 <div className='w-full sm:w-[400px] lg:w-[400px] h-[216px] bg-slate-200 p-4 sm:p-5 rounded-lg shadow-lg'>
                     <div className='text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom px-2 py-4 h-[60px] text-center items-center justify-center'>Smooth Transition </div>
-                    <div className='mt-4 sm:mt-5 text-gray-600 text-base'>
+                    <div className='mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal '>
                         <p>We ensure a smooth transition through rigorous testing, near-real-time simulations, and comprehensive training.</p>
                     </div>
                 </div>

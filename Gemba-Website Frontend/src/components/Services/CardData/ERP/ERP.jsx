@@ -39,7 +39,7 @@ const ERP = () => {
           <p className="text-2xl sm:text-3xl lg:text-4xl  font-bold text-gray-800">
             Streamline, Optimize, and Grow with ERP
           </p>
-          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal ">
             ERP applications help businesses become more efficient by linking
             key areas like production, finance, distribution, and human
             resources into a unified system. By integrating different

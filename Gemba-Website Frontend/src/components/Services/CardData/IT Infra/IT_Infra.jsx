@@ -39,7 +39,7 @@ const IT_Infra = () => {
           <p className="text-2xl sm:text-3xl lg:text-4xl  font-bold text-gray-800">
           Secure, scalable IT infrastructure future
           </p>
-          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+          <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal ">
           IT infrastructure forms the backbone of any modern organization, encompassing all hardware, software, networks, and data centers that support business operations. A well-designed IT infrastructure ensures seamless communication, efficient data management, and robust security measures. It enables businesses to scale efficiently, adapt to new technologies, and respond swiftly to market changes. With growing digital demands, a resilient, secure, and scalable IT infrastructure is crucial to maintain uptime, protect sensitive data, and support innovation. Investing in modern IT infrastructure allows companies to stay competitive and future-ready in a fast-evolving digital landscape.
           </p>
         </div>

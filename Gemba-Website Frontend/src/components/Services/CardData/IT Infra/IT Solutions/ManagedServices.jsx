@@ -22,7 +22,7 @@ const ManagedServices = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">MANAGED SERVICES</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           Our team of experts is dedicated to ensuring your network infrastructure operates seamlessly, minimizing downtime and optimizing productivity. With our managed services, you can focus on what matters most—growing your business—while we handle the complexities of maintaining and securing your network.
         </p>
 
@@ -41,7 +41,7 @@ const ManagedServices = () => {
                 openSection === "Comprehensive Network Solutions" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 With our managed services, you gain access to a comprehensive range of network solutions, including Wi-Fi, firewall, and router management—all from a single trusted provider.
               </div>
             </div>
@@ -60,7 +60,7 @@ const ManagedServices = () => {
                 openSection === "Expert Team Support" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our managed services are supported by a team of experts committed to keeping your network infrastructure running smoothly. We proactively monitor your network, quickly identify potential issues, and resolve them swiftly to minimize downtime and ensure uninterrupted performance.
               </div>
             </div>
@@ -79,7 +79,7 @@ const ManagedServices = () => {
                 openSection === "Focus on Core Business" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 By outsourcing your network management to a trusted provider like us, you can concentrate on your core business activities. This allows you to boost productivity, streamline operations, and drive business growth.
               </div>
             </div>

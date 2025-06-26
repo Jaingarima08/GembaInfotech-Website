@@ -9,7 +9,7 @@ const Descpt = () => {
       </h1>
       </div>
       <div className="bg-gradient-to-b from-gray-100 to-slate-200 px-4 sm:px-6 ">
-      <p className=' text-gray-600 text-start'>Gemba InfoTech delivers comprehensive services across SAP ECC6.0 and SAP S/4HANA, ensuring seamless implementation, migration, upgrades, and enhancements. We also specialize in developing custom applications and IoT solutions on the SAP Cloud Platform. Our SAP services encompass integration, extension, and more. Our support services are ITSM compliant, with a strong emphasis on effective knowledge management practices to efficiently manage our clients' IT landscapes.</p>
+      <p className=' text-gray-600  text-justify tracking-tight md:tracking-normal '>Gemba InfoTech delivers comprehensive services across SAP ECC6.0 and SAP S/4HANA, ensuring seamless implementation, migration, upgrades, and enhancements. We also specialize in developing custom applications and IoT solutions on the SAP Cloud Platform. Our SAP services encompass integration, extension, and more. Our support services are ITSM compliant, with a strong emphasis on effective knowledge management practices to efficiently manage our clients' IT landscapes.</p>
       </div>
       </>
   )

@@ -93,7 +93,7 @@ const ProductGrid = () => {
         <h1 className="text-3xl md:text-3xl lg:text-4xl font-bold px-4 sm:px-6 py-6 text-gray-700 text-start lg:text-center">
           Our Ever-Growing Products
         </h1>
-        <p className="bg-gradient-to-b from-gray-100 to-slate-200 text-gray-600 px-4 sm:px-6 text-start">
+        <p className="bg-gradient-to-b from-gray-100 to-slate-200 text-gray-600 px-4 sm:px-6 text-justify tracking-tight md:tracking-normal ">
           Our diverse range of solutions spans across various key business
           functions, including Enterprise Resource Planning (ERP), Customer
           Relationship Management (CRM), Inventory Management, Assets

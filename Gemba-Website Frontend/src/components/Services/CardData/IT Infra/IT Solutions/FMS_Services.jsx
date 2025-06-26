@@ -22,7 +22,7 @@ const FMS_Services = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-4">
         <h2 className="text-2xl font-semibold text-gray-800">AMC/FMS SERVICES</h2>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-justify tracking-tight md:tracking-normal ">
           We provide dependable and all-encompassing Annual Maintenance Contracts (AMC) and Facility Management Services (FMS) to ensure your systems and infrastructure operate seamlessly and remain in optimal condition year-round.
         </p>
 
@@ -41,7 +41,7 @@ const FMS_Services = () => {
                 openSection === "Proactive maintenance" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our AMC/FMS services focus on proactive maintenance to identify and address potential issues before they escalate. This includes routine inspections, performance optimization, and timely system upgrades, ensuring your infrastructure operates at peak efficiency and remains fully functional.
               </div>
             </div>
@@ -60,7 +60,7 @@ const FMS_Services = () => {
                 openSection === "Comprehensive support" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our AMC/FMS services provide comprehensive support to swiftly address any technical issues that may arise. This includes both on-site and remote assistance, prompt troubleshooting, and efficient repair services, all designed to minimize downtime and ensure seamless business continuity.
               </div>
             </div>
@@ -79,7 +79,7 @@ const FMS_Services = () => {
                 openSection === "Monitoring and reporting" ? "max-h-[500px] p-4" : "max-h-0 py-0 px-4"
               }`}
             >
-              <div className="text-gray-600 bg-gray-50">
+              <div className="text-gray-600 bg-gray-50 text-justify tracking-tight md:tracking-normal ">
                 Our AMC/FMS services include continuous monitoring and detailed reporting to track system performance and identify emerging trends or potential issues. This proactive approach enables timely interventions and optimization, ensuring your systems remain reliable, efficient, and fully optimized over the long term.
               </div>
             </div>

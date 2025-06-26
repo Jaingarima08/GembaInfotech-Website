@@ -36,7 +36,7 @@ const Reverse_Auction = () => {
         {/* Text Div */}
         <div className="md:ml-4 max-w-full md:max-w-[63%] bg-slate-200 p-3 sm:p-4 lg:p-8 rounded-xl shadow-lg z-10 overflow-hidden w-full lg:w-1/2 h-full min-h-[15rem] sm:min-h-[16rem] md:min-h-[20rem] lg:min-h-[24rem] animate-slideInRight">
           <p className="text-2xl sm:text-3xl lg:text-4xl  font-bold text-gray-800">Achieve Better Deals Faster with Reverse Auctions</p>
-                    <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto">
+                    <p className="mt-2 lg:mt-4 text-gray-600 overflow-y-auto text-justify tracking-tight md:tracking-normal ">
                     A reverse auction is a dynamic online event where buyers solicit competitive bids from suppliers in real-time. Unlike traditional auctions, where the price rises, reverse auctions drive prices down as participants compete to offer the lowest bid for specific goods or services. To ensure a successful auction, sourcing professionals invest considerable effort in preparation. This includes organizing preliminary information-gathering activities to assess and qualify potential suppliers, which helps streamline the auction process and enhance its effectiveness.Proper preparation helps streamline the auction process, making it more efficient and effective for both buyers and suppliers.
                     </p>
                 </div>
@@ -44,7 +44,7 @@ const Reverse_Auction = () => {
             <div className="w-full lg:mx-auto md:px-6 px-4 my-8 sm:text-start lg:text-center">
         <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">
         Your Needs, Our Focus: Procurement Software Redefined</div>
-                <div className='text-gray-600 my-2'>
+                <div className='text-gray-600 my-2 '>
                 Provide your procurement team with advanced tools designed to optimize processes and enhance productivity, ensuring top-tier efficiency. These solutions help streamline operations, reduce costs, and improve decision-making within the industry.</div>
             </div>
 <AuctionData/>

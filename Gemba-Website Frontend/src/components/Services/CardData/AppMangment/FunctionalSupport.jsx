@@ -46,7 +46,7 @@ const FunctionalSupport = () => {
         <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">
           Functional Support Services
         </div>
-        <div className="text-gray-600 my-2 ">
+        <div className="text-gray-600 my-2 text-justify tracking-tight md:tracking-normal ">
           Leveraging our deep SAP specialization and industry expertise, we
           offer robust post-implementation support to activate new
           functionalities and processes. Our approach combines process redesign
@@ -64,7 +64,7 @@ const FunctionalSupport = () => {
               <h3 className="text-xl sm:text-2xl font-semibold text-white bg-cardColor font-custom p-2 h-[70px] text-center items-center justify-center">
                 {service.title}
               </h3>
-              <p className="mt-4 sm:mt-5 text-gray-600 text-base">{service.description}</p>
+              <p className="mt-4 sm:mt-5 text-gray-600 text-base text-justify tracking-tight md:tracking-normal ">{service.description}</p>
             </div>
           </div>
         ))}
