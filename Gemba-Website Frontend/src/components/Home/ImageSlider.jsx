@@ -8,7 +8,8 @@ import Image3 from "../../assets/homeimg2.jpg";
 import Image4 from "../../assets/homeimg3.jpg";
 import Image5 from "../../assets/homeimg1.jpg";
 import Logo from "../../assets/frapeelogo.png"; // Add your logo image here
-import Image6 from "../../assets/doctors.jpg";
+// import Image6 from "../../assets/doctors.jpg";
+import Image7 from "../../assets/doctors.webp";
 
 const images = [
   // { src: Image1, alt: 'Image 0' },
@@ -16,7 +17,8 @@ const images = [
   { src: Image2, alt: 'Image 2' },
   { src: Image4, alt: 'Image 3' },
   { src: Image5, alt: 'Image 4' },
-  { src: Image6, alt: 'Image 5' },
+  // { src: Image6, alt: 'Image 5' },
+  { src: Image7, alt: 'Image 6' },
 ];
 
 const ImageSlider = () => {

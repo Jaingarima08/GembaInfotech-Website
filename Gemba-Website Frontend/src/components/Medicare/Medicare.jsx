@@ -1,19 +1,21 @@
 import React from "react";
-import medicare from "../../assets/doctors.webp";
+// import medicare from "../../assets/doctors.webp";
+import videoFile from "../../assets/video/medical_video.gif";
 import MedicareCards from "./medicareCards";
 import MedicareBenefits from "./medicareBenefits";
+import ClientSuccessMetrics from "./ClientSuccessMetrics";
 
 const Medicare = () => {
   return (
     <div className="pt-24 lg:pt-28 font-custom">
       <div className="relative w-full h-[400px]">
         <img
-          src={medicare}
+          src={videoFile}
           alt="medicare"
           className="h-full w-full object-cover"
         />
 
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center px-4 md:px-12 text-left">
+        <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center px-4 md:px-12 text-left">
           <div className="text-white max-w-3xl">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">
               Empowering Healthcare Providers with Reliable, Accurate, and
@@ -30,6 +32,7 @@ const Medicare = () => {
         </div>
       </div>
 
+      <ClientSuccessMetrics/>
       <MedicareCards/>
       <MedicareBenefits/>
     </div>
