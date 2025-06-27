@@ -107,7 +107,7 @@ const About = () => {
         </div>
 
         <div className="bg-slate-500 py-10 px-4 sm:px-6 justify-between">
-          <h2 className="text-gray-100 font-semibold text-base  pb-3">
+          <h2 className="text-gray-100 font-semibold text-base pb-3">
             EXPLORE COMPANY
           </h2>
           <hr className="border-gray-300" />

@@ -49,7 +49,7 @@ const offerings = [
 const MedicareCards = () => {
   return (
     <section className="py-12 px-4 md:px-12 bg-gray-100">
-      <h2 className="text-3xl font-bold text-center mb-10">What We Offer</h2>
+      <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-10">What We Offer</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {offerings.map((item, index) => (
           <div
