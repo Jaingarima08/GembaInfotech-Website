@@ -8,7 +8,7 @@ import ClientSuccessMetrics from "./ClientSuccessMetrics";
 const Medicare = () => {
   return (
     <div className="pt-24 lg:pt-28 font-custom">
-      <div className="relative w-full h-[400px]">
+      <div className="relative w-full h-[400px]">  
         <img
           src={videoFile}
           alt="medicare"
