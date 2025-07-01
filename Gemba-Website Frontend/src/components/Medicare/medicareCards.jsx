@@ -12,7 +12,7 @@ const offerings = [
     icon: <FaFileMedical className="text-red-500 text-3xl mb-3" />,
     title: "Comprehensive Medicare Billing",
     description:
-      "We manage the full lifecycle of Medicare claims — from eligibility verification to final reimbursement. Our team ensures clean claim submission, timely follow-ups, and error-free processing.",
+      "We manage the full lifecycle of Insurance claims — from eligibility verification to final reimbursement. Our team ensures clean claim submission, timely follow-ups, Rectifying Denials and error-free processing.",
   },
   {
     icon: <FaCheckCircle className="text-red-500 text-3xl mb-3" />,
@@ -36,7 +36,7 @@ const offerings = [
     icon: <FaUserMd className="text-red-500 text-3xl mb-3" />,
     title: "Dedicated Billing Experts",
     description:
-      "Get access to a team of Medicare-certified billing professionals who act as an extension of your staff — always available and always accountable.",
+      "Get access to a team of Certified billing professionals who act as an extension of your staff — always available and always accountable.",
   },
   {
     icon: <FaLaptopMedical className="text-red-500 text-3xl mb-3" />,

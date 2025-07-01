@@ -184,7 +184,7 @@ const Navbar = () => {
                 }`
                 }
                 >
-                  Medicare
+                  RCM Services
                 </NavLink>
                 <NavLink
                   to="/contact"
@@ -260,7 +260,7 @@ const Navbar = () => {
             to="/gemba-medicare"
             onClick={() => setMenuOpen(false)}
             >
-            Medicare
+            RCM Services
             </NavLink>
             <NavLink
               className="block py-2 text-lg font-semibold"

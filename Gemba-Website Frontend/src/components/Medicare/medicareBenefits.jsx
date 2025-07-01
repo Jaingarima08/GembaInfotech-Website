@@ -21,7 +21,7 @@ const tabs = [
         icon: (
           <FaFileInvoiceDollar className="text-red-500 text-3xl mt-1 transition-transform duration-300 hover:scale-110 animate-pulse" />
         ),
-        text: "Accurate Medicare Claims Submission with End-to-End Management",
+        text: "Accurate Insurance Claims Submission with End-to-End Management",
       },
       {
         icon: (
@@ -51,7 +51,7 @@ const tabs = [
         icon: (
           <FaUsersCog className="text-red-500 text-3xl mt-1 transition-transform duration-300 hover:scale-110 animate-pulse" />
         ),
-        text: "Dedicated Medicare Billing Specialists for Personalized Support",
+        text: "Dedicated Insurance Billing Specialists for Personalized Support",
       },
       {
         icon: (
@@ -80,7 +80,7 @@ const MedicareBenefits = () => {
   return (
     <section className="py-12 md:py-20 px-6 md:px-12 bg-gradient-to-b from-gray-100 to-blue-100">
       <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center mb-8" data-aos="fade-up">
-         Medicare Medical Billing at Gemba
+         Revenue Cycle Management and Medical Billing at Gemba
       </h2>
 
       {/* Tabs */}

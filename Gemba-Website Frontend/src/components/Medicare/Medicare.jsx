@@ -8,7 +8,7 @@ import ClientSuccessMetrics from "./ClientSuccessMetrics";
 const Medicare = () => {
   return (
     <div className="pt-24 lg:pt-28 font-custom">
-      <div className="relative w-full h-[400px]">  
+      <div className="relative w-full h-[400px]">
         <img
           src={videoFile}
           alt="medicare"
@@ -23,7 +23,7 @@ const Medicare = () => {
             </h2>
             <p className="text-sm md:text-base text-justify tracking-normal">
               At Gemba, we understand the unique challenges faced by healthcare
-              providers in managing Medicare billing. Our specialized Medicare
+              providers in managing RCM billing Services. Our specialized
               Medical Billing Services are designed to ensure maximum
               reimbursements, regulatory compliance, and minimal administrative
               burden — so you can focus on delivering exceptional patient care.
@@ -32,9 +32,9 @@ const Medicare = () => {
         </div>
       </div>
 
-      <ClientSuccessMetrics/>
-      <MedicareCards/>
-      <MedicareBenefits/>
+      <ClientSuccessMetrics />
+      <MedicareCards />
+      <MedicareBenefits />
     </div>
   );
 };
