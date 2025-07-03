@@ -257,7 +257,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
             className="block py-2 text-lg font-semibold"
-            to="/gemba-medicare"
+            to="/gemba-medicare"  
             onClick={() => setMenuOpen(false)}
             >
             RCM Services
